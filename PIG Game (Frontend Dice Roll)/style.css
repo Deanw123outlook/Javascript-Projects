@@ -1,0 +1,113 @@
+body {
+  background-image: linear-gradient(rgb(255, 9, 9), white, rgb(255, 9, 9));
+  font-family: monospace;
+  align-items: center;
+  height: 500px;
+}
+
+.game-title {
+  padding-top: 50px;
+  margin-left: 470px;
+}
+
+/*DICE*/
+.dice {
+  margin-left: 580px;
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+.hidden {
+  display: block;
+}
+.player--0 {
+  margin-left: 410px;
+  margin-top: 10px;
+  padding-top: 40px;
+  float: left;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  height: 250px;
+  width: 200px;
+}
+.player--1 {
+  margin-top: 10px;
+  padding-top: 40px;
+  float: left;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  height: 250px;
+  width: 200px;
+}
+
+.btn-container {
+  margin-top: 10px;
+  margin-left: 450px;
+}
+.btn {
+  height: 50px;
+  width: 100px;
+  font-family: monospace;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background-color: lightgray;
+}
+.player--active {
+  background-color: rgba(255, 255, 255, 0.765);
+  opacity: 0.5;
+}
+
+/*text-contents*/
+.current {
+  /*font-size: 16px;*/
+}
+.current-label {
+  background-color: lightgrey;
+  color: red;
+  text-align: center;
+  width: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+
+#score--0 {
+  font-size: 20px;
+  background-color: lightgrey;
+  color: red;
+  text-align: center;
+  width: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+#score--1 {
+  font-size: 20px;
+  background-color: lightgray;
+  color: red;
+  text-align: center;
+  width: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+h2 {
+  background-color: lightgray;
+  color: red;
+  text-align: center;
+  width: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+
+/*                              CSS Style - WINNINg GAME                                                    */
+.player-winner {
+  background-image: linear-gradient(yellow, white);
+}
+
+/*float-fix-parent/child content*/
+.fix-float {
+  clear: both;
+}
